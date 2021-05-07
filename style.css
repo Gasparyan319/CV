@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(./extenses/back.jpg);
+    background-image: url(./assets/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,6 +31,8 @@ li a{
     width: 400px;
     display: inline-block;
     padding: 25px 50px;
+    margin-top: 50px
+    ;
 }
 
 #nkar {
@@ -117,6 +119,9 @@ li a{
 
   footer{
     background: black;
+    width: 100%;
+    min-height: 400px;
+
 }
 
 footer li {
@@ -133,4 +138,52 @@ footer li {
     font-size: 30px;
     animation: pound .35s infinite alternate;
     -webkit-animation: pound .35s infinite alternate;
+}
+
+#footer_menu {
+  display: flex;
+  list-style-type: none;
+justify-content: space-evenly;
+
+border-top-style:solid ;
+border-top-color: brown;
+border-top-width:2px;
+border-bottom: solid brown 2px;
+padding: 10px 5px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#footer__links {
+  height: 100%;
+  display: flex;
+justify-content: center;
+  align-items: center;
+
+}
+
+#socials i {
+  font-size: 50px;
+  padding-left: ;
+}
+
+#socials {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  width: 100%;
+  
+}
+
+#socials div {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media only screen and (max width: 600px) {
 }
